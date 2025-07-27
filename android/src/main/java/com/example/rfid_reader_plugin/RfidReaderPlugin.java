@@ -1,0 +1,1 @@
+/// Código nativo Java placeholder
