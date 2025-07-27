@@ -1,0 +1,18 @@
+name: rfid_reader_plugin
+description: A Flutter plugin to interface with embedded RFID reader.
+version: 0.0.1
+homepage: https://github.com/4youplay/rfid_reader_plugin_final
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.rfid_reader_plugin
+        pluginClass: RfidReaderPlugin
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
